@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const preloader = document.getElementById('preloader');
     setTimeout(() => {
         preloader.classList.add('hidden');
-    }, 1000);
+    }, 800);
 
     // Custom Cursor
     const cursor = document.querySelector('.cursor');
@@ -307,14 +307,14 @@ document.addEventListener('DOMContentLoaded', () => {
                     clearInterval(interval);
                 }
                 
-                iteration += 1 / 3;
-            }, 30);
+                iteration += 1 / 2;
+            }, 15);
         }
 
         // Trigger scramble on load
         setTimeout(() => {
             scrambleText(heroTitle);
-        }, 1200);
+        }, 600);
     }
 
     // Magnetic effect on buttons
@@ -374,8 +374,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     // Re-add the dot
                     badge.innerHTML = '<span class="badge-dot"></span>' + badgeText;
                 }
-            }, 30);
-        }, 1300);
+            }, 20);
+        }, 500);
     }
 
     // Ripple effect on buttons
