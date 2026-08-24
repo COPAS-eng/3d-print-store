@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "skills": {
+    "animate": {
+      "source": "delphi-ai/animate-skill",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "6cad510ef13753d01be3a463870bfa040e2ee4ddd8f2c1606ce75112a524dfc7"
+    },
+    "animate-text": {
+      "source": "pixel-point/animate-text",
+      "sourceType": "github",
+      "skillPath": "skills/animate-text/SKILL.md",
+      "computedHash": "81b7719e45013fcf651f1f4c9a1ca2af9618e99667ff5cd3e5d102369235ec5e"
+    },
+    "animation-designer": {
+      "source": "daffy0208/ai-dev-standards",
+      "sourceType": "github",
+      "skillPath": "skills/animation-designer/SKILL.md",
+      "computedHash": "8d67411378f8609415a2ea727013490c8432bfd941ae3f4a343b8bf4d874ec81"
+    },
+    "framer-motion": {
+      "source": "mindrally/skills",
+      "sourceType": "github",
+      "skillPath": "framer-motion/SKILL.md",
+      "computedHash": "4bbfec771a1a13e3462cdd30c442fd09513c50d13a2652a275a8e09ad4532189"
+    },
+    "framer-motion-animator": {
+      "source": "patricio0312rev/skills",
+      "sourceType": "github",
+      "skillPath": "frontend/framer-motion-animator/SKILL.md",
+      "computedHash": "22a8401fab0cdf32d5c153b98aba5e95435a479810896879535dc7ac3710efbe"
+    },
+    "gsap-framer-scroll-animation": {
+      "source": "github/awesome-copilot",
+      "sourceType": "github",
+      "skillPath": "skills/gsap-framer-scroll-animation/SKILL.md",
+      "computedHash": "e6a4caf23b818ffc5185d51339e941ca783944b6693da877fc1206693b2dff66"
+    },
+    "landing-page-design": {
+      "source": "skills-101/superpowers",
+      "sourceType": "github",
+      "skillPath": "guides/design/landing-page-design/SKILL.md",
+      "computedHash": "00c0bb9b3bf40a9865f51471c26724e140de40b8850a213378ab04d8e89679c9"
+    },
+    "modern-web-development": {
+      "source": "mindrally/skills",
+      "sourceType": "github",
+      "skillPath": "modern-web-development/SKILL.md",
+      "computedHash": "a33db947b28eeb8a14c3b40b775ac35567177256c2288cc55499c743bde2a066"
+    },
+    "modern-web-guidance": {
+      "source": "googlechrome/modern-web-guidance",
+      "sourceType": "github",
+      "skillPath": "skills/modern-web-guidance/SKILL.md",
+      "computedHash": "c3ef6e9de4b996ad91a59fd24d098eebc526837e15b6ac7e4d869b630b098984"
+    },
+    "motion-framer": {
+      "source": "freshtechbro/claudedesignskills",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/motion-framer/SKILL.md",
+      "computedHash": "b18cf4fbfd179942f73d770f3f1d4597ea512fbdf67b2aa03f01cfd726558b6e"
+    },
+    "tailwind-theme-builder": {
+      "source": "jezweb/claude-skills",
+      "sourceType": "github",
+      "skillPath": "plugins/frontend/skills/tailwind-theme-builder/SKILL.md",
+      "computedHash": "e8a9ac674406de2e6db9cbb09107a4d4e4ce02debbf556a4251bea73add0da12"
+    },
+    "tailwindcss": {
+      "source": "hairyf/skills",
+      "sourceType": "github",
+      "skillPath": "skills/tailwindcss/SKILL.md",
+      "computedHash": "78937e1d72496af3e902292eb66b8ad2cdd2d34b90b5428257aae9056678d465"
+    },
+    "threejs-3d-generator": {
+      "source": "majidmanzarpour/threejs-game-skills",
+      "sourceType": "github",
+      "skillPath": "skills/threejs-3d-generator/SKILL.md",
+      "computedHash": "a2dcc0ec0eaa1e819d799418496c51b952a18929d6b650df9e3c7763d26d0cd4"
+    },
+    "ui-animation": {
+      "source": "mblode/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/ui-animation/SKILL.md",
+      "computedHash": "5eef09540175ade79025e52d5b33f9ef1054e59c0a1ccac125a860f31393ebb1"
+    }
+  }
+}
