@@ -282,41 +282,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Text scramble effect on hero title
-    const heroTitle = document.querySelector('.hero-title');
-    if (heroTitle) {
-        const text = heroTitle.textContent;
-        const chars = '!<>-_\\/[]{}—=+*^?#________';
-        
-        function scrambleText(element) {
-            const originalText = element.textContent;
-            let iteration = 0;
-            
-            const interval = setInterval(() => {
-                element.textContent = originalText
-                    .split('')
-                    .map((letter, index) => {
-                        if (index < iteration) {
-                            return originalText[index];
-                        }
-                        return chars[Math.floor(Math.random() * chars.length)];
-                    })
-                    .join('');
-                
-                if (iteration >= originalText.length) {
-                    clearInterval(interval);
-                }
-                
-                iteration += 1 / 2;
-            }, 5);
-        }
-
-        // Trigger scramble on load
-        setTimeout(() => {
-            scrambleText(heroTitle);
-        }, 150);
-    }
-
     // Magnetic effect on buttons
     const magneticBtns = document.querySelectorAll('.btn, .nav-cta, .product-btn');
     
@@ -358,25 +323,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     `;
     document.head.appendChild(style);
-
-    // Typed effect for hero badge
-    const badge = document.querySelector('.hero-badge');
-    if (badge) {
-        const badgeText = badge.textContent;
-        badge.textContent = '';
-        setTimeout(() => {
-            let i = 0;
-            const typeInterval = setInterval(() => {
-                badge.textContent = badgeText.substring(0, i + 1);
-                i++;
-                if (i >= badgeText.length) {
-                    clearInterval(typeInterval);
-                    // Re-add the dot
-                    badge.innerHTML = '<span class="badge-dot"></span>' + badgeText;
-                }
-            }, 5);
-        }, 100);
-    }
 
     // Ripple effect on buttons
     document.querySelectorAll('.btn-primary').forEach(btn => {
