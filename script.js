@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const preloader = document.getElementById('preloader');
     setTimeout(() => {
         preloader.classList.add('hidden');
-    }, 2000);
+    }, 1000);
 
     // Custom Cursor
     const cursor = document.querySelector('.cursor');
@@ -180,7 +180,7 @@ document.addEventListener('DOMContentLoaded', () => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 const target = parseInt(entry.target.getAttribute('data-count'));
-                const duration = 2000;
+                const duration = 1200;
                 const step = target / (duration / 16);
                 let current = 0;
 
@@ -314,7 +314,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Trigger scramble on load
         setTimeout(() => {
             scrambleText(heroTitle);
-        }, 2500);
+        }, 1200);
     }
 
     // Magnetic effect on buttons
@@ -374,8 +374,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     // Re-add the dot
                     badge.innerHTML = '<span class="badge-dot"></span>' + badgeText;
                 }
-            }, 50);
-        }, 2200);
+            }, 30);
+        }, 1300);
     }
 
     // Ripple effect on buttons
